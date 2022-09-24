@@ -1,0 +1,7 @@
+apple
+pear
+peach
+orange
+are
+river
+int

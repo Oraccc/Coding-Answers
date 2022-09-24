@@ -1,0 +1,5 @@
+songs 12 6.9
+comics 45 4.6
+news 12 6.9
+songs 47 9.8
+dicts 5 8.7
