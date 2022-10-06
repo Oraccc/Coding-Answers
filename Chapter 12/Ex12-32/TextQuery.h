@@ -9,20 +9,21 @@ class QueryResult;
 #include <map>
 #include <set>
 #include <memory>
+#include "StrBlob.h"
 
 using namespace std;
 
 class TextQuery 
 {
 public:
-    typedef vector<string>::size_type line_no;
+    typedef StrBlob::size_type line_no;
 
     TextQuery(ifstream &);
 
     QueryResult query(const string &) const;
 
 private:
-    shared_ptr<vector<string>> file;
+    shared_ptr<StrBlob> file;
     map<string, shared_ptr<set<line_no>>> wm;
 };
 

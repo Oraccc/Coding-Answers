@@ -1,4 +1,5 @@
 #include "QueryResult.h"
+#include "StrBlobPtr.h"
 
 using namespace std;
 
@@ -13,7 +14,7 @@ ostream &print(ostream &os, const QueryResult &qr)
     << make_plural(qr.lines->size(), "time", "s") << endl;
 
     for (auto num : *qr.lines)
-        os << "  " << "(line " << num + 1 << ") " << "\t" << *(qr.file->begin() + num) << endl;
+        os << "  " << "(line " << num + 1 << ") " << "\t" << StrBlobPtr(*qr.file, num).deref() << endl;
     
     return os;
 }

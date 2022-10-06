@@ -1,10 +1,12 @@
 #include <sstream>
 #include "TextQuery.h"
 #include "QueryResult.h"
+#include "StrBlob.h"
+#include "StrBlobPtr.h"
 
 using namespace std;
 
-TextQuery::TextQuery(ifstream &in) : file(new vector<string>)
+TextQuery::TextQuery(ifstream &in) : file(new StrBlob)
 {
     string text;
     while(getline(in, text))
