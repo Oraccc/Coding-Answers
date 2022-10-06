@@ -17,13 +17,13 @@ class TextQuery
 public:
     typedef vector<string>::size_type line_no;
 
-    explicit TextQuery(ifstream &in);
+    TextQuery(ifstream &);
 
-    QueryResult query(const string &word) const;
+    QueryResult query(const string &) const;
 
 private:
-    shared_ptr<vector<string>> text;
-    map<string, shared_ptr<set<line_no>>> word_map;
+    shared_ptr<vector<string>> file;
+    map<string, shared_ptr<set<line_no>>> wm;
 };
 
 #endif
