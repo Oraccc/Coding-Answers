@@ -149,9 +149,6 @@ int main()
     for (StrBlob::size_type pos = 0; pos != texts.size(); ++pos, p.inc())
         cout << pos + 1 << ":\t" << p.deref() << endl;
 
-    // The following loop cannot be compiled, because we don't define the `!=`
-    // operator for `StrBlobPtr`
-    //for (StrBlobPtr p = texts.begin(); p != texts.end(); p.inc())
 
     return 0;
 }
