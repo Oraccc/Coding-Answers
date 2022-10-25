@@ -1,7 +1,7 @@
 # Coding-Solutions
 Some coding solutions for C++ Primer 5th Edition.
 
-
+> Chapter 1 - 15
 
 #### 目录
 
@@ -26,17 +26,16 @@ Some coding solutions for C++ Primer 5th Edition.
 
 ##### 第Ⅲ部分 类设计者的工具
 
-（更新中)
-
 - [x] 第13章　[拷贝控制](https://github.com/oraccc/Coding-Answers-for-Cpp-Primer/tree/master/Chapter%2013)
 - [x] 第14章　[重载运算与类型转换](https://github.com/oraccc/Coding-Answers-for-Cpp-Primer/tree/master/Chapter%2014)
 - [x] 第15章　[面向对象的程序设计](https://github.com/oraccc/Coding-Answers-for-Cpp-Primer/tree/master/Chapter%2015)
-- [ ] 第16章　[模板与泛型编程](https://github.com/oraccc/Coding-Answers-for-Cpp-Primer/tree/master/Chapter%2016)
+
+ > Will update one day in the future...
+
+- [ ] 第16章　模板与泛型编程
 
 
 ##### 第Ⅳ部分 高级主题
-
-（更新中）
 
 - [ ] 第17章　标准库特殊设施
 - [ ] 第18章　用于大型程序的工具
